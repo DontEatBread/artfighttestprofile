@@ -69,3 +69,52 @@ body {
 .btn-primary:not(.active), .dropdown-item:hover {
     background-color: var(--dark-bg) !important;
 }
+/* Text Box Backgrounds */
+.text-box, .panel-body, .card-body {
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png') !important;
+    background-size: auto 100% !important;
+    background-position: left top !important;
+    padding-left: 20px; /* Adjust this value as needed */
+}
+
+/* Card Body Specifics */
+.card .card-body {
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png') !important;
+    background-size: auto 100% !important;
+    background-position: left top !important;
+    padding-left: 20px; /* Adjust this value as needed */
+}
+
+/* Panel Body Specifics */
+.panel .panel-body {
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png') !important;
+    background-size: auto 100% !important;
+    background-position: left top !important;
+    padding-left: 20px; /* Adjust this value as needed */
+}
+
+/* Profile Content Areas */
+.profile-content, .content-section {
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png') !important;
+    background-size: auto 100% !important;
+    background-position: left top !important;
+    padding-left: 20px; /* Adjust this value as needed */
+}
+
+/* Additional text box elements */
+.text-box, .content-box {
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png') !important;
+    background-size: auto 100% !important;
+    background-position: left top !important;
+    padding-left: 20px; /* Adjust this value as needed */
+}
+
+/* Media Query for Text Boxes on smaller screens */
+@media screen and (max-width: 768px) {
+    .text-box, .panel-body, .card-body,
+    .profile-content, .content-section,
+    .text-box, .content-box {
+        background-size: auto 100% !important;
+        padding-left: 20px; /* Adjust this value as needed */
+    }
+}

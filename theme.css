@@ -11,14 +11,6 @@
     font-family: Georgia, serif!important;
 }
 
-/* Theme colors */
-:root {
-    --primary-blue: #1e3a8a;
-    --accent-blue: #4f6fa2;
-    --dark-bg: rgba(29, 27, 53, 0.9);
-    --lighter-bg: rgba(14, 12, 35, 0.9);
-}
-
 /* Main theme adjustments */
 body {
     background-color: var(--primary-blue) !important;
@@ -36,29 +28,37 @@ body {
 }
 
 .profile-header-wrapper.clearfix {
-    background: var(--lighter-bg);
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png');
     width: 86% !important;
     margin-left: 1%;
     display: inline-block !important;
 }
 
+/* Existing styles with updated backgrounds */
+.banner-container.mb-3 {
+    border: rgba(0,0,0,.7) solid 6px;
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png');
+}
+
+.profile-header-background.panel-heading.bg-light.p-2.border.rounded.position-relative {
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png') !important;
+    border: #000 solid 5px !important;
+}
+
 /* Navigation and tabs */
-.nav-tabs, .nav-link {
-    font-style: italic;
-    color: white !important;
+.nav-tabs {
+    width:12%;
+    margin:0 0 0 -8px !important;
+    display: inline-block  !important;
+    padding:4px !important;
+    font-style:italic;
+    border:none;
+    font-variant:small-caps;
 }
 
-.nav-tab.active {
-    background-color: var(--accent-blue) !important;
-}
-
-/* Links with blue contrast */
-a:not(.btn):not(.navbar-brand), a.btn-primary:not(.active) {
-    color: #ff4081; /* Orange for high contrast against blue */
-}
-
-a:hover, .nav-link:hover {
-    color: #ff5722; /* Orange-red on hover */
+/* More background-related styles */
+.card.panel.float-left.d-none.d-md-block.profile-header-wrapper {
+    background-image: url('https://donteatbread.github.io/artfighttestprofile/boxes.png')!important;
 }
 
 /* Additional elements with blue theme */
@@ -68,20 +68,4 @@ a:hover, .nav-link:hover {
 
 .btn-primary:not(.active), .dropdown-item:hover {
     background-color: var(--dark-bg) !important;
-}
-
-/* Comments and other text elements */
-.comment a {
-    color: #ff4081 !important;
-}
-
-h2.profile-stats-title, h2.profile-characters-title {
-    background-color: var(--lighter-bg);
-    color: white;
-}
-
-/* Media queries remain unchanged */
-
-@media screen and (max-width: 766px) {
-    /* ... existing media query styles ... */
 }

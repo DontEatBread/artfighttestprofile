@@ -114,13 +114,13 @@ a.btn.btn-primary.active,
 .btn-warning, .btn-danger, .btn-success, .btn-primary, #profile-dropdown {
   background: #000;
   border: #000 solid 1px;
-  color: #ff6060;
+  color: #1E90FF;
 }
 
 .btn-warning:hover, .alert-warning {
   background: #C7680B;
-  border: #ff9a30 solid 1px;
-  color: #ffebbe;
+  border: #1E90FF solid 1px;
+  color: #1E90FF;
 }
 
 .btn-success:hover, .alert-success {
@@ -151,12 +151,12 @@ table.table-bordered {
 
 td a,
 .card-footer.panel-footer.text-right a {
-  color: #ff6883;
+  color: #1E90FF;
 }
 
 td a:hover,
 .card-footer.panel-footer.text-right a:hover {
-  color: #ffa0b1;
+  color: #1E90FF;
 }
 
 /* Avatar / Followers Panel */
@@ -188,7 +188,7 @@ td a:hover,
 
 /* Comments & Headings */
 .comment .panel-body {
-  background: rgba(14, 12, 35, .9) !important;
+  background: #303f4a !important;
 }
 
 .comments h2,
@@ -196,18 +196,18 @@ h2.profile-stats-title,
 h2.profile-characters-title,
 h2.profile-attacks-title,
 h2.profile-defenses-title {
-  background: rgba(14, 12, 35, .7);
+  background: #303f4a;
   padding: 2px 10px;
   margin: 30px auto 5px auto;
   text-align: center;
   font-variant: small-caps;
-  color: #e5effd;
+  color:#1E90FF;
 }
 
 /* Footer & Pagination */
 .footer .contain {
-  background: #120000 !important;
-  border-top: #000 solid 5px;
+  background: #303f4a !important;
+  border-top: #1E90FF solid 5px;
 }
 
 .page-item.disabled .page-link {
@@ -216,7 +216,7 @@ h2.profile-defenses-title {
 }
 
 .page-link {
-  background: #120000;
+  background: #1E90FF;
   border: none;
 }
 
@@ -226,7 +226,7 @@ h2.profile-defenses-title {
 
 /* Typography */
 p, div {
-  color: #e5e8f2;
+  color: #1E90FF;
 }
 
 /* Mobile Fixes */
